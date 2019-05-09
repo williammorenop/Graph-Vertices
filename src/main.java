@@ -28,6 +28,8 @@ public class main {
 		
 		System.out.println(grafo.dfs());
 		
+		System.out.println(grafo.bfs());
+		
 	}
 
 }
