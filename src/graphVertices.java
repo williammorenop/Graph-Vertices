@@ -64,9 +64,9 @@ public class graphVertices<T> {
 		return false;
 	}
 
-	public List<T> dfs() {
+	public Vector<T> dfs() {
 		todosFalse();
-		List<T> resultado = new ArrayList<T>();
+		Vector<T> resultado = new Vector<T>();
 		Stack<T> pila = new Stack<T>();
 		vertices.get(0).setVisitado(true);
 		resultado.add(vertices.get(0).getDato());
