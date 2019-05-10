@@ -43,7 +43,7 @@ public class Vertice<T> {
 	}
 
 	public void addEdgeVertex(T origin, T destination, Double weight) {
-		this.vecinos.add(new Aristas<T>(weight, destination));
+		this.vecinos.add(new Aristas<T>(weight, this.dato , destination));
 	}
 
 	public boolean hasEdge(T origin, T destination) {
